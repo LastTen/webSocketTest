@@ -1,0 +1,31 @@
+{
+  "name": "oregonback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LastTen/OregonBack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LastTen/OregonBack/issues"
+  },
+  "homepage": "https://github.com/LastTen/OregonBack#readme",
+  "dependencies": {
+    "axios": "^1.3.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jest": "^29.4.3",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
